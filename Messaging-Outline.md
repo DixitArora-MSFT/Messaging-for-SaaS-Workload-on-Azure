@@ -34,7 +34,7 @@ ms.topic: conceptual
 - The identity strategy might change depending on the type of customers you serve. You likely will not need to worry about a BYOIdP scenario in a B2C SaaS product.
 - If your customers are 100% within the microsoft universe, you can rely on microsoft entra multitenant applications for a simple identity approach. 
 
-## Resiliency and reliability design
+## Resiliency and reliability 
 
 - Guidance for reaching into the customer's entra tenant from your entra tenant. 
 - Options include: service principals, lighthouse, managed applications. Discuss the pros/cons of each. 
