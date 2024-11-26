@@ -29,12 +29,12 @@ ms.topic: conceptual
     - Guidance on evaluate the isolation features of the messaging services to ensure that it meets ISVs tenancy model requirements.
     - Guidance on choosing the right tenacy model by keeping balance between cost and customer experince.
 
-## B2C vs B2B Scenarios
+## Scale and cost 
 
 - The identity strategy might change depending on the type of customers you serve. You likely will not need to worry about a BYOIdP scenario in a B2C SaaS product.
 - If your customers are 100% within the microsoft universe, you can rely on microsoft entra multitenant applications for a simple identity approach. 
 
-## Cross Entra Tenant Access Management
+## Resiliency and reliability design
 
 - Guidance for reaching into the customer's entra tenant from your entra tenant. 
 - Options include: service principals, lighthouse, managed applications. Discuss the pros/cons of each. 
