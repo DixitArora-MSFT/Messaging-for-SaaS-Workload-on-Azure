@@ -13,13 +13,13 @@ ms.topic: conceptual
 
 - Selecting an appropriate messaging model for multi-tenant SaaS applications is essential to enable secure, scalable, asynchronous messaging and event-driven communication. 
     - Independent software vendors (ISVs) must carefully evaluate the right messaging solution to meet the demands of a multi-tenant SaaS environment. 
-    - ISVs should consider factors such as the nature of the events and messages, scalability requirements, event routing complexity, latency tolerance, and operational overhead.. 
+    - ISVs should consider factors such as the nature of the events and messages, scalability requirements, event routing complexity, latency tolerance, and operational overhead.
 
-## Federated Identity
+## Select a messaging platform
 
-- If your customer requirements dictate that you must allow them to bring their own identity provider, how you do that is important. 
-- You should have a good understanding of how many identity providers you need to scale to. A solution that fits 100 unique identity providers is very different from one that fits 100,000. 
-- BYOIdP gets complex and expensive. Make sure you factor that into your business model. 
+- Choosing the right messaging service for your SaaS workload is essential, yet the variety of options available in Azure can make the decision feel overwhelming.
+- The ideal service depends on factors like message type, application architecture, scalability requirements, performance needs, and tenant isolation. 
+- What works best for one application might not suit another, so it’s important to align your choice with the specific messaging requirements of your workload. 
 
 ## Delegated Permissions
 
