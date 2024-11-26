@@ -21,13 +21,14 @@ ms.topic: conceptual
 - The ideal service depends on factors like message type, application architecture, scalability requirements, performance needs, and tenant isolation. 
 - What works best for one application might not suit another, so it’s important to align your choice with the specific messaging requirements of your workload. 
 
-## Delegated Permissions
+## Tenancy model and isolation
 
-- A lot of end customers like to manage their own permissions/access on their end. 
+- Most SaaS providers host messaging resources on behalf of their customers, allowing greater flexibility in service design. Ensure robust workload isolation to optimize costs while maintaining performance and seamless customer experience.
+   
 - Customers should be given defined ways to do this. 
-    - Via groups inherited from their side (mapping exercise and OIDC configuration is required)
-    - Via a custom portal/interface the ISV builds to allow them to change permissions
-    - etc
+    - Guidance on evaluate the isolation features of the messaging services to ensure that it meets ISVs tenancy model requirements.
+    - Guidance on evaluate the isolation features of the messaging services to ensure that it meets ISVs tenancy model requirements.
+    - 
 
 - Seat licensing is often handled through permission management. You could choose to do this as a role in your identity provider, or you could do it in the database. Make sure that if the customer has a limited number of seats, that they can't keep assigning more permissions.
 
