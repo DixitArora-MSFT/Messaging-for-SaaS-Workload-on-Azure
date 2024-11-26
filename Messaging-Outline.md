@@ -23,16 +23,23 @@ ms.topic: conceptual
 
 ## Tenancy model and isolation
 
-- Most SaaS providers host messaging resources on behalf of their customers, allowing greater flexibility in service design. Ensure robust workload isolation to optimize costs while maintaining performance and seamless customer experience.
+Most SaaS providers host messaging resources on behalf of their customers, allowing greater flexibility in service design. Ensure robust workload isolation to optimize costs while maintaining performance and seamless customer experience.
    
-- ISVS should be given defined ways to do this. 
+- ISVS should be given defined ways to do this.
+  
     - Guidance on evaluate the isolation features of the messaging services to ensure that it meets ISVs tenancy model requirements
     - Guidance on choosing the right tenacy model by keeping balance between cost and customer experince
 
 ## Scale and cost 
 
-- The identity strategy might change depending on the type of customers you serve. You likely will not need to worry about a BYOIdP scenario in a B2C SaaS product.
-- If your customers are 100% within the microsoft universe, you can rely on microsoft entra multitenant applications for a simple identity approach. 
+When designing messaging systems for SaaS workloads on Azure, balancing scale and cost is essential to meet performance requirements while managing the budget. 
+
+Provide guide on how to approach scaling and cost management for messaging services in  SaaS workloads:
+
+- Autoscaling for High Traffic Volumes 
+- Monitor and Optimize Message Throughput
+- Optimize Tier Selection
+- Best Practices for Balancing Scale and Cost
 
 ## Resiliency and reliability 
 
