@@ -9,7 +9,7 @@ ms.topic: conceptual
 
 # Messaging for SaaS workloads on Azure
 
-- SaaS applications often involve multiple microservices, external APIs, and backend systems. Messaging solution often act as the solution that integrates these components, ensuring smooth and efficient operations by facilitating real-time updates and communication across distributed systems. 
+- SaaS applications often involve multiple microservices, external APIs, and backend systems. Messaging solution often act as a part that integrates these components, ensuring smooth and efficient operations by facilitating real-time updates and communication across these distributed systems. 
 
 - Understand how your tenancy model plays into identity. 
     - Tenancy model can be affected by things like: data residency requirements, compliance requirements, pricing model, and more. 
