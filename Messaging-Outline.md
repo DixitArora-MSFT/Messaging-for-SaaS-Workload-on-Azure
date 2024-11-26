@@ -36,6 +36,6 @@ ms.topic: conceptual
 
 ## Resiliency and reliability 
 
-- Guidance for reaching into the customer's entra tenant from your entra tenant. 
-- Options include: service principals, lighthouse, managed applications. Discuss the pros/cons of each. 
-- This should be handled with care. Only request the minimal amount of access you require from their tenant. 
+- Guidance on Multi-Region and Multi-AZ Deployment, Geo-Replication and Fault tolerance
+- Implement throttling mechanisms to prevent overloading the messaging system
+- Incorporate retry logic in messaging clients, especially for transient errors
