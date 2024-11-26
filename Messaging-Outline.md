@@ -25,12 +25,9 @@ ms.topic: conceptual
 
 - Most SaaS providers host messaging resources on behalf of their customers, allowing greater flexibility in service design. Ensure robust workload isolation to optimize costs while maintaining performance and seamless customer experience.
    
-- Customers should be given defined ways to do this. 
+- ISVS should be given defined ways to do this. 
     - Guidance on evaluate the isolation features of the messaging services to ensure that it meets ISVs tenancy model requirements.
-    - Guidance on evaluate the isolation features of the messaging services to ensure that it meets ISVs tenancy model requirements.
-    - 
-
-- Seat licensing is often handled through permission management. You could choose to do this as a role in your identity provider, or you could do it in the database. Make sure that if the customer has a limited number of seats, that they can't keep assigning more permissions.
+    - Guidance on choosing the right tenacy model by keeping balance between cost and customer experince.
 
 ## B2C vs B2B Scenarios
 
