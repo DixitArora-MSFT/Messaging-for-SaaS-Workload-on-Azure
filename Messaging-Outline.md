@@ -11,9 +11,9 @@ ms.topic: conceptual
 
 - SaaS applications often involve multiple microservices, external APIs, and backend systems. Messaging solution often act as a part that integrates these components, ensuring smooth and efficient operations by facilitating real-time updates and communication across these distributed systems. 
 
-- Understand how your tenancy model plays into identity. 
-    - Tenancy model can be affected by things like: data residency requirements, compliance requirements, pricing model, and more. 
-    - Having a MOBO type model could limit them from being able to use a single shared identity provider. 
+- Selecting an appropriate messaging model for multi-tenant SaaS applications is essential to enable secure, scalable, asynchronous messaging and event-driven communication. 
+    - Independent software vendors (ISVs) must carefully evaluate the right messaging solution to meet the demands of a multi-tenant SaaS environment. 
+    - ISVs should consider factors such as the nature of the events and messages, scalability requirements, event routing complexity, latency tolerance, and operational overhead.. 
 
 ## Federated Identity
 
