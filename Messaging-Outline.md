@@ -9,7 +9,7 @@ ms.topic: conceptual
 
 # Messaging for SaaS workloads on Azure
 
-- Identity is arguably the most important piece of a SaaS workload. It serves to protect tenant data from leaking across the tenant barrier. It is often overlooked or not thought of until the end of a project. Don't make that mistake.
+- SaaS applications often involve multiple microservices, external APIs, and backend systems. Messaging solution often act as the solution that integrates these components, ensuring smooth and efficient operations by facilitating real-time updates and communication across distributed systems. 
 
 - Understand how your tenancy model plays into identity. 
     - Tenancy model can be affected by things like: data residency requirements, compliance requirements, pricing model, and more. 
